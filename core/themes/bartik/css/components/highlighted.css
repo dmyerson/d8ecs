@@ -1,0 +1,66 @@
+/**
+ * @file
+ * Styles for Bartik's highlighted component.
+ */
+
+div.block-views-blocknodeblock-block-7, div.block-views-blocknodeblock-block-6, div.block-views-blocknodeblock-block-9 {
+  float: left;
+  width: 25.45%;
+  font-size: 0.84em;
+  line-height: 1.25em;
+  color: #fff;
+}
+div.block-views-blocknodeblock-block-7 h2, div.block-views-blocknodeblock-block-6 h2, div.block-views-blocknodeblock-block-9 h2 {
+  font-size: 1.5em;
+  line-height: 1.111em;
+  margin-top: 0;
+}
+div.block-views-blocknodeblock-block-6 h2, div.block-views-blocknodeblock-block-9 h2 {
+  margin-bottom: 18px;
+}
+div.block-views-blocknodeblock-block-7 h2 {
+  margin-bottom: 15px;
+}
+div.block-views-blocknodeblock-block-7 a, div.block-views-blocknodeblock-block-6 a, div.block-views-blocknodeblock-block-9 a {
+  border-bottom: none;
+}
+div#block-views-block-nodeblock-block-9 {
+  background-image: url(/core/themes/bartik/ecs_images/bkgrndFrontBlock1.png);
+}                   
+div#block-views-block-nodeblock-block-9 div.more-info {
+  height: 33px;
+  margin-bottom: 15px;
+}
+div#block-views-block-nodeblock-block-7 {
+  background-image: url(/core/themes/bartik/ecs_images/bkgrndFrontBlock2.png);
+}
+div#block-views-block-nodeblock-block-7 div.more-info {
+  height: 33px;
+  margin-bottom: 13px;
+}
+div#block-views-block-nodeblock-block-6 {
+  background-image: url(/core/themes/bartik/ecs_images/bkgrndFrontBlock3.png);
+}
+div#block-views-block-nodeblock-block-6 div.more-info {
+  height: 33px;
+  margin-bottom: 15px;
+}
+.has-featured-top .region-highlighted {
+  background: #f0f0f0;
+  background: rgba(30, 50, 10, 0.08);
+}
+.region-highlighted {
+  margin: -5px 0 0 0;
+}
+
+body.path-frontpage .highlighted {
+  background: url(/core/themes/bartik/ecs_images/bkgrndBodyFront.gif) repeat-x #fff;
+}
+
+.region-highlighted #block-views-block-nodeblock-block-6, #block-views-block-nodeblock-block-7, #block-views-block-nodeblock-block-9 {
+  padding: 18px 56px 0 18px;
+}
+
+.region-highlighted div.more-info img {
+  min-width: inherit;
+}

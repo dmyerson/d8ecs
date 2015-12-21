@@ -1,0 +1,7 @@
+/* CSS Document */
+
+#colorbox, #cboxOverlay, #cboxWrapper {
+    overflow: visible;
+	width: 390px;
+	height: 310px;
+}

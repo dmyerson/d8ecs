@@ -1,0 +1,6 @@
+{
+  "name": "drupal/core",
+  "description": "Port of facilities map from old site",
+  "type": "drupal-module",
+  "license": "GPL-2.0+"
+}

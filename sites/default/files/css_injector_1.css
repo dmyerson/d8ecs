@@ -1,0 +1,6 @@
+#better-messages-default div.error {
+  color: #D77;
+}
+#ui-datepicker-div .ui-datepicker-header select {
+  position:static;
+}

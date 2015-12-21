@@ -1,0 +1,6 @@
+name: Facilities Custom Map
+description: Port of facilities map from old site
+package: Custom
+type: module
+version: 0.1
+core: 8.x

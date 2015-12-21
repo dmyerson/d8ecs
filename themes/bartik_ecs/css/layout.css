@@ -1,0 +1,41 @@
+/**
+ * custom
+ */
+div.block-views-blocknodeblock-block-7, div.block-views-blocknodeblock-block-6, div.block-views-blocknodeblock-block-9 {
+  float: left;
+  width: 33%;
+}
+img.icon {
+  position: absolute;
+  z-index: 2'
+}
+/**
+ * @file
+ * Bartik layout styling.
+ */
+
+/**
+ * Container
+ */
+.layout-container {
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+@media all and (min-width: 851px) {
+  .layout-container {
+    max-width: 940px;
+  }
+}
+
+/**
+ * Main
+ */
+.layout-main-wrapper {
+  min-height: 300px;
+}
+.layout-main {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}

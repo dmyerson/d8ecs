@@ -1,0 +1,7 @@
+facilities_map_custom.content:
+  path: '/facilities1'
+  defaults:
+    _controller: '\Drupal\facilities_map_custom\Controller\FacilitiesMapController::content'
+    _title: 'Facilities'
+  requirements:
+    _permission: 'access content'

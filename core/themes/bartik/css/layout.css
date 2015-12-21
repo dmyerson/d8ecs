@@ -1,0 +1,76 @@
+/**
+ * custom
+ */
+table#fac-table th, table#fac-table td {
+  font-size: 12px;
+  border-left: solid #777 1px;
+}
+table#fac-table tr {
+  border-bottom: solid #777 1px;
+}
+#systems-page td a {
+  font-size: 12px;
+}
+div#block-views-block-testimonial-block-block-1 div.views-field-title,
+div#block-views-block-testimonial-block-block-1 div.views-field-field-author-organization,
+div#block-views-block-testimonial-block-block-1 div.views-field-field-author-location {
+  font-weight: bold;
+}
+div.site-footer__bottom div.field-content {
+  font-size: 10px;
+}
+div.views-field-field-quotation {
+  font-style: italic;
+  line-height: 2em;
+}
+span.views-field-created {
+  color: #c2c2c2;
+  font-style: italic;
+  float: right;
+  font-size: 1.25em;
+}
+div.view-blog div.views-field-body img, .node--type-blog img {
+  min-width: inherit;
+}
+
+div.view-blog div.views-field-title a {
+  color: #333;
+  text-transform: uppercase;
+  border-bottom: 1px dotted #c2c2c2;
+  font-size: 1.25em;
+}
+
+img.icon {
+  position: absolute;
+  z-index: 2;
+}
+/**
+ * @file
+ * Bartik layout styling.
+ */
+
+/**
+ * Container
+ */
+.layout-container {
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+@media all and (min-width: 851px) {
+  .layout-container {
+    max-width: 940px;
+  }
+}
+
+/**
+ * Main
+ */
+.layout-main-wrapper {
+  min-height: 300px;
+}
+.layout-main {
+  margin-top: 0px;
+  margin-bottom: 40px;
+}

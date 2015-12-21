@@ -1,0 +1,28 @@
+/* CSS Document */
+
+#map-wrapper { margin: 20px 0; position: relative; display:inline-block}
+img.location-map { margin-bottom: 10px; position: relative; z-index: 1; }
+img.icon { position: absolute; z-index: 2; }
+img.map-legend { display:block};
+
+img.location-image { margin: 20px 10px 10px}
+.location-data { margin-top:10px; border: 2px solid #544740; padding: 10px; }
+.location-title,.location-system,.location-volume { color: #ffffff; text-align: right; display:block; font-size: .8em;}
+
+
+#cboxLoadedContent {
+    padding: 20px 13px;
+}
+
+#cboxSlideshow, #cboxPrevious, #cboxNext, #cboxClose {
+    height: 22px;
+    width: 22px;
+	top: -9px;
+	right: -9px;
+}
+
+#colorbox, #cboxOverlay, #cboxWrapper {
+    overflow: visible;
+}
+
+#colorbox { top: 400px !important; }
